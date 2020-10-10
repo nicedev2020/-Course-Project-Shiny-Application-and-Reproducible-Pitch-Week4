@@ -1,0 +1,44 @@
+---
+title: "Course Project: Shiny Application and Reproducible Pitch"
+author: "Youness BOUTYOUR"
+date: "October 11, 2020"
+output: ioslides_presentation
+---
+
+## Cements Explore
+
+This presentation is being created as part of the peer assessment for the coursera developing data products class. The assignment is to make sure that the students what they have learn and show how to apply it.
+
+It have two part:
+
+ - *_shiny_* to build data product application
+ - *R-Presentation or slidify* to create data product related presentations
+
+## Application Explore
+
+Using the data that originally from R (*cement* dataset), which is here
+(<a href="https://vincentarelbundock.github.io/Rdatasets/datasets.html">datasets</a>) , I make a simple application of shiny so that we can understand the use of it.
+
+The application allow user to :
+
+- Select the data of x-axis and y-axis based on the variable of the datasets
+- Select the output to be shown as Jitter or Smooth graph
+- User also can choose what facet row or colum that they want.
+
+## Code
+
+Using the datasets cement, I do some evaluation and this is the simple code to see what data it have :
+
+```{r}
+dataset <- read.csv('mixtures.csv')
+head(dataset)
+```
+
+## Link to the project and docs
+
+1. shiny Apps : <a href="https://github.com/nicedev2020/-Course-Project-Shiny-Application-and-Reproducible-Pitch-Week4/">Cement Exploration</a>
+2. server.R and ui.R file : <a href="https://github.com/nicedev2020/-Course-Project-Shiny-Application-and-Reproducible-Pitch-Week4">Link</a>
+
+Hope you enjoy the application. Thank You.
+
+
